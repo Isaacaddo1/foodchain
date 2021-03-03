@@ -26,10 +26,10 @@ public class Simulator {
     private final List<Animal> animals;
     // The current state of the field.
     private final Field field;
-    // The current step of the simulation.
-    private int step;
     // A graphical view of the simulation.
     private final SimulatorView view;
+    // The current step of the simulation.
+    private int step;
 
     /**
      * Construct a simulation field with default size.
